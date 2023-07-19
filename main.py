@@ -75,7 +75,7 @@ import math
 
 #elif
 
-#test coopera ale do 20 lat bo dalej mi sie nie chce/ ogólnie to zadanie niedbale zrobiłęm troche i NIe działa
+#test coopera ale do 20 lat bo dalej mi sie nie chce/ ogólnie to zadanie niedbale zrobiłęm troche
 
 
 plec=input(" Jestes Kobietaą czy mężczyzną ? (K/M) ")
@@ -83,7 +83,7 @@ wiek=int(input("podaj swój wiek"))
 wynik=int(input("podaj swój wynik w biegu 12 mintowym"))
 
 if plec=="M":
-    if  13<=wiek<20:
+    if 13<=wiek<20:
         if wynik>2700:
             print("Bardzo Dobrze!")
         elif 2700>wynik>2400:
@@ -95,14 +95,6 @@ if plec=="M":
         else:
             print("bardoz zel")
     else:
+        print("małolat lub za stary idk ")
+else:
         print("haha kobieta")
-
-print("Bardzo Dobrze!")
-print("dobrze")
-print("średnio")
-print("źle")
-print("Bardzo źle!")
-
-
-
-
