@@ -42,3 +42,67 @@ import math
 #    print("twoje imie konczy sie na a")
 #else:
 #    print("twoje imie nie nkonczy sie na a")
+
+#and or not
+
+#prosty kalkulaotr kredytowy
+
+#celem jest sprawdzenie czy użtkownika stać na kredyt hipoteczny o podanych parametrach
+
+#kwota_kredytu=float(input("Podaj kwote kredytu"))
+#wartosc_wlasna=float(input("podaj wartosc wkladu wlasnego "))
+#czas=float(input("czas kredytu w latach "))
+#przyhod=float(input("podaj przychod miesieczny "))
+#oprocentowanie=float(input("podaj  oproecentowanie "))
+#wydatki=float(input("podaj sume miesieczna wydatkow "))
+
+#rata=(kwota_kredytu*oprocentowanie/100)/12+(kwota_kredytu/(czas*12))
+
+#dostepne_srodki=przyhod-wydatki
+#wartosc_nieruchomosci=wartosc_wlasna+kwota_kredytu
+
+#if wartosc_wlasna>wartosc_nieruchomosci/5:
+#    warunek1=dostepne_srodki-1000>rata
+#elif wartosc_wlasna<=wartosc_nieruchomosci/5>= wartosc_nieruchomosci/10:
+#    warunek1=dostepne_srodki-2000>rata
+#else:
+#    warunek1=False
+
+#if   warunek1:
+#    print("możesz wzaisc kredyt")
+#else:
+#    print(" nie mozesz")
+
+#elif
+
+#test coopera ale do 20 lat bo dalej mi sie nie chce/ ogólnie to zadanie niedbale zrobiłęm troche i NIe działa
+
+
+plec=input(" Jestes Kobietaą czy mężczyzną ? (K/M) ")
+wiek=int(input("podaj swój wiek"))
+wynik=int(input("podaj swój wynik w biegu 12 mintowym"))
+
+if plec=="M":
+    if  13<=wiek<20:
+        if wynik>2700:
+            print("Bardzo Dobrze!")
+        elif 2700>wynik>2400:
+            print("dobrze")
+        elif 2400 > wynik >= 2200:
+            print("sredniak")
+        elif 2100 > wynik > 2000:
+            print("zle")
+        else:
+            print("bardoz zel")
+    else:
+        print("haha kobieta")
+
+print("Bardzo Dobrze!")
+print("dobrze")
+print("średnio")
+print("źle")
+print("Bardzo źle!")
+
+
+
+
