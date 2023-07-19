@@ -78,23 +78,55 @@ import math
 #test coopera ale do 20 lat bo dalej mi sie nie chce/ ogólnie to zadanie niedbale zrobiłęm troche
 
 
-plec=input(" Jestes Kobietaą czy mężczyzną ? (K/M) ")
-wiek=int(input("podaj swój wiek"))
-wynik=int(input("podaj swój wynik w biegu 12 mintowym"))
+#lec=input(" Jestes Kobietaą czy mężczyzną ? (K/M) ")
+#wiek=int(input("podaj swój wiek"))
+#wynik=int(input("podaj swój wynik w biegu 12 mintowym"))
 
-if plec=="M":
-    if 13<=wiek<20:
-        if wynik>2700:
-            print("Bardzo Dobrze!")
-        elif 2700>wynik>2400:
-            print("dobrze")
-        elif 2400 > wynik >= 2200:
-            print("sredniak")
-        elif 2100 > wynik > 2000:
-            print("zle")
-        else:
-            print("bardoz zel")
-    else:
-        print("małolat lub za stary idk ")
-else:
-        print("haha kobieta")
+#if plec=="M":
+ #   if 13<=wiek<20:
+  #      if wynik>2700:
+        #    print("Bardzo Dobrze!")
+   #     elif 2700>wynik>2400:
+        #    print("dobrze")
+    #    elif 2400 > wynik >= 2200:
+       #     print("sredniak")
+     #   elif 2100 > wynik > 2000:
+       #     print("zle")
+      #  else:
+         #   print("bardoz zel")
+    #else:
+     #   print("małolat lub za stary idk ")
+#else:
+ #       print("haha kobieta")
+
+
+ #in oraz is
+
+#name="Ala"
+#if "a" in name:
+ #   print("jest a")
+#else:
+ #   print("nie ma a")
+
+ #zadania
+#jedzenie1=input("jaka jest twa top 1 potrawa?")
+#jedzenie2=input("jaka jest twa top 2 potrawa?")
+#jedzenie3=input("jaka jest twa top 3 potrawa?")
+#fav_potrawki=[jedzenie1,jedzenie2,jedzenie3]
+#bulki="bulki"
+#cjhelp="chlep"
+#if bulki in fav_potrawki or cjhelp in fav_potrawki:
+#    print("kazdy przeciesz lubi chlep  lub bułki")
+#else#print("noice")
+
+#nr_celi=input("podaj numer celi")
+#if "0" in nr_celi:
+#    print(" masz 0 w nuemrze")
+#else:
+#    print(" nie masz 0")
+#value=3
+#if value is int: # a to dziwne idk co to
+#    print(" to int")
+#else:
+#    print("to nie int")
+
