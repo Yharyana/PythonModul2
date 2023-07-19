@@ -130,3 +130,12 @@ import math
 #else:
 #    print("to nie int")
 
+print("testuje ocs")
+x=2137
+y=x
+print(x,y)
+print(x is y)
+x+=69
+print(x,y)
+print(x is y)
+
